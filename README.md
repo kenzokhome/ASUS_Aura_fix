@@ -4,6 +4,7 @@ Aura fix in case of various plugins
 In case you've got corsair iCUE or any other lighting app that messes up your Aura Armory Crate settings, I've created this script that runs on startup and fixes the lighting mode.
 
 The script will not run if your execution policy is restricted. You need to run in a PowerShell window:
+
 set-executionpolicy remotesigned
 
 More about this here: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.2
